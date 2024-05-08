@@ -1,4 +1,5 @@
 import React from 'react'
+import "./nav.css";
 
 const Nav = () => {
   return (
@@ -33,12 +34,67 @@ const Nav = () => {
                   <svg aria-hidden="true" class="nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M21 5.25H3M21 12H3m18 6.75H3"></path></svg></a></button>
                 </div>
               </div>
+             
 
             </div>
          </div>
       
 
+         <div className="container-2">
 
+            <div className="nav-1">
+            <div className="nav-1-content flex">
+
+                <div className="nav-1-icon">
+                  <button><a href=""><SiJordan /></a></button>
+                  <button><a href=""><AiFillStar /></a></button>
+                </div>
+
+                <div className="nav-1-text text2">
+                  <ul>
+                    <li><a href="">Find a store</a><span>|</span></li>
+                    <li><a href="">Help</a><span>|</span></li>
+                    <li><a href="">Join Us</a><span>|</span></li>
+                    <li><a href="">Sign In</a></li>
+                  </ul>
+                </div>
+            </div>
+            </div>
+
+   
+            <div className="nav-2">
+                <div className="nav-2-content flex">
+
+                          <div className="logo">
+                            <SiNike/>
+                          </div>
+
+                            <div className="nav-2-text text">
+                              <span>New & Featured</span>
+                              <span>Men</span>
+                              <span id='show1'>Women</span>
+                              <span className='show2'>Kids</span>
+                              <span className='show2'>Sale</span>
+                              <span id='show3'>Jordan</span>
+                            </div>
+
+                            <div className="nav-2-icons flex">
+                                <div className="nav-search">
+                                  <input type="text" placeholder='Search'/>
+                                  <RiSearchLine id='icon'/>
+                                </div>
+                              
+                                <div className="nav-others flex">
+                                  <button><a href=""><AiOutlineHeart/></a></button>
+                                  <button><a href=""><BsBag/></a></button>
+                                </div>
+                            </div>
+                            
+                            
+                </div>
+            </div>
+
+        </div>
 
     </div>
   )
