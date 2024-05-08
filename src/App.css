@@ -20,6 +20,23 @@
           color: var(--icon-hover-color);
         }
     }
+
+    .icon-button{
+        border: 0;
+        background-color: white;
+        margin: 5px;
+        padding: 7px;
+          a{
+            text-decoration: none;
+            color: var(--font-color);
+            font-size: var(--icon-size-1); 
+          }
+          &:hover{
+          border-radius: 50%;
+          background-color: var(--icon-hover-color);
+                }
+            }
+
     .flex{
        display: flex;
        flex-direction: row;
