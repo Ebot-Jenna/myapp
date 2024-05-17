@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:  Helvetica, sans-serif;
+    
+    }
+    
+    :root{
+      --font-color: black;
+      --icon-size-1: 25px;
+      --icon-hover-color: rgba(128, 128, 128, 0.2);
+      --hover-color: rgba(128, 128, 128, 0.5);
+      --nav-background-color: #f0f0f0;
+      
+    }
+    .logo{
+        font-size: 60px;
+        margin-left: 15px;
+        a{
+          color: var(--font-color);
+        }
+        &:hover{
+          color: var(--icon-hover-color);
+        }
+    }
+  
+
+    .icon-button{
+        border: 0;
+        background-color: white;
+        margin: 5px;
+        padding: 7px;
+        height: 40px;
+        width: 40px;
+          a{
+            text-decoration: none;
+            color: var(--font-color);
+            font-size: var(--icon-size-1); 
+          }
+          &:hover{
+          border-radius: 50%;
+          background-color: var(--icon-hover-color);
+                }
+            }
+
+    .flex{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    .text{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .text-2{
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
