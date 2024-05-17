@@ -8,7 +8,8 @@
   --font-color: black;
   --icon-size-1: 25px;
   --icon-hover-color: rgba(128, 128, 128, 0.2);
-  --hover-color: rgba(128, 128, 128, 0.5);
+  --icon-hover-color-darker: rgba(128, 128, 128, 0.5);
+  --logo-hover-color: rgba(128, 128, 128, 0.8);
   --nav-background-color: #f0f0f0;
 }
 
@@ -20,7 +21,7 @@
   color: var(--font-color);
 }
 .logo:hover {
-  color: var(--icon-hover-color);
+  color: var(--logo-hover-color);
 }
 
 .icon-button {
@@ -49,10 +50,18 @@
 
 .text {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .text-2 {
   font-size: 12px;
   font-weight: bold;
+}
+
+.for-list ul li {
+  list-style-type: none;
+}
+.for-list ul li a {
+  text-decoration: none;
+  color: var(--font-color);
 }/*# sourceMappingURL=App.css.map */
