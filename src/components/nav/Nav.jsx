@@ -89,13 +89,19 @@ const Nav = () => {
                           </div>
 
                             <div className="nav-container-2-nav-2-text text for-list">
-                              <ul>
-                                <li><a href="">New & Featured</a></li>
-                                <li><a href="">Men</a></li>
-                                <li><a href="">Women</a></li>
-                                <li><a href="">Kids</a></li>
-                                <li><a href="">Sale</a></li>
-                                <li><a href="">Jordan</a></li>
+                              <ul className='flex'>
+                                <li><div> <a href="">New & Featured</a></div>
+                                 </li>
+                                <li><div><a href="">Men</a></div>
+                                  </li>
+                                <li><div><a href="">Women</a></div>
+                                  </li>
+                                <li><div><a href="">Kids</a></div>
+                                  </li>
+                                <li><div><a href="">Sale</a></div>
+                                  </li>
+                                <li><div><a href="">Jordan</a></div>
+                                  </li>
                               </ul>
                             
                             </div>

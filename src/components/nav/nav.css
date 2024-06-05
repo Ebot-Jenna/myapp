@@ -54,7 +54,12 @@
   .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .logo {
     margin-left: 25px;
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-search input {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-text ul li div a {
+    margin: 5px;
+    display: inline-block;
+    color: blue;
+  }
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-search input {
     padding: 12px 48px;
     margin-top: 20px;
     border-radius: 100px;
@@ -62,33 +67,33 @@
     background-color: var(--icon-hover-color);
     margin-left: 140px;
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-search input::-moz-placeholder {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-search input::-moz-placeholder {
     position: relative;
     left: 10%;
     top: 2px;
     color: var(--icon-hover-color);
     font-size: 18px;
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-search input::placeholder {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-search input::placeholder {
     position: relative;
     left: 10%;
     top: 2px;
     color: var(--icon-hover-color);
     font-size: 18px;
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-search input:hover {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-search input:hover {
     background-color: var(--icon-hover-color-darker);
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-search .search-icon {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-search .search-icon {
     position: relative;
     left: -56%;
     top: 8px;
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-search .search-icon:hover {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-search .search-icon:hover {
     border-radius: 50%;
     background-color: var(--icon-hover-color-darker);
   }
-  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-icons .nav-others {
+  .Navigation .nav-container-2 .nav-container-2-nav-2 .nav-container-2-nav-2-content .nav-container-2-nav-2-icons .nav-others {
     margin: 15px 40px 0px 0px;
   }
 }/*# sourceMappingURL=nav.css.map */
